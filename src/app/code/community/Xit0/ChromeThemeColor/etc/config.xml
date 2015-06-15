@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author     Irshad Pananilath
+ * @package    Xit0_ChromeThemeColor
+ * @copyright  Copyright (c) 2014-15 Irshad Pananilath
+ * @license    The MIT License (MIT)
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+-->
+<config>
+  <modules>
+    <Xit0_ChromeThemeColor>
+      <version>1.0.0</version>
+    </Xit0_ChromeThemeColor>
+  </modules>
+  <global>
+    <helpers>
+      <chromethemecolor>
+        <class>Xit0_ChromeThemeColor_Helper</class>
+      </chromethemecolor>
+    </helpers>
+  </global>
+  <frontend>
+    <layout>
+      <updates>
+        <Xit0_ChromeThemeColor>
+          <file>xit0_chromethemecolor.xml</file>
+        </Xit0_ChromeThemeColor>
+      </updates>
+    </layout>
+  </frontend>
+  <default>
+    <xit0_chromethemecolor>
+      <theme>
+        <toolbar_color>#2196F3</toolbar_color>
+      </theme>
+    </xit0_chromethemecolor>
+  </default>
+</config>

@@ -1,0 +1,6 @@
+src/app/etc/modules/Xit0_ChromeThemeColor.xml                           app/etc/modules/Xit0_ChromeThemeColor.xml
+
+src/app/code/community/Xit0/ChromeThemeColor                            app/code/community/Xit0/ChromeThemeColor
+
+src/app/design/frontend/base/default/layout/xit0_chromethemecolor.xml   app/design/frontend/base/default/layout/xit0_chromethemecolor.xml
+src/app/design/frontend/base/default/template/Xit0/ChromeThemeColor     app/design/frontend/base/default/template/Xit0/ChromeThemeColor

@@ -1,0 +1,36 @@
+{
+    "name": "Xit0/ChromeThemeColor",
+    "license": "MIT",
+    "type": "magento-module",
+    "description": "Chrome for Android theme-color support in Magento",
+    "homepage":"https://github.com/pmirshad/Xit0_ChromeThemeColor",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Irshad Pananilath",
+            "email":"pmirshad+code@gmail.com"
+        }
+    ],
+    "extra": {
+        "map": [
+            [
+                "src/app/code/community/Xit0/ChromeThemeColor",
+                "app/code/community/Xit0/ChromeThemeColor"
+            ],
+            [
+                "src/app/design/frontend/base/default/layout/xit0_chromethemecolor.xml",
+                "app/design/frontend/base/default/layout/xit0_chromethemecolor.xml"
+            ],
+            [
+                "src/app/design/frontend/base/default/template/Xit0/ChromeThemeColor",
+                "app/design/frontend/base/default/template/Xit0/ChromeThemeColor"
+            ],
+            [
+                "src/app/etc/modules/Xit0_ChromeThemeColor.xml",
+                "app/etc/modules/Xit0_ChromeThemeColor.xml"
+            ]
+        ]
+    }
+}

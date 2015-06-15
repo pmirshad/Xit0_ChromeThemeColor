@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author     Irshad Pananilath
+ * @package    Xit0_ChromeThemeColor
+ * @copyright  Copyright (c) 2014-15 Irshad Pananilath
+ * @license    The MIT License (MIT)
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+-->
+<config>
+  <tabs>
+    <xit0_config translate="label" module="chromethemecolor">
+      <label>Xit0 Extensions</label>
+      <sort_order>1300</sort_order>
+    </xit0_config>
+  </tabs>
+  <sections>
+    <xit0_chromethemecolor translate="label" module="chromethemecolor">
+      <label>Chrome Theme Color</label>
+      <tab>xit0_config</tab>
+      <frontend_type>text</frontend_type>
+      <sort_order>100</sort_order>
+      <show_in_default>1</show_in_default>
+      <show_in_website>1</show_in_website>
+      <show_in_store>1</show_in_store>
+      <groups>
+        <theme translate="label comment">
+          <label>Chrome for Android Toolbar Color</label>
+          <comment><![CDATA[<i>"Starting in version 39 of Chrome for Android on Lollipop, you’ll now be able to use the <code>theme-color</code> meta tag to set the toolbar color"</i> - <a href="http://goo.gl/dUH7Zc" target="_blank">HTML5 Rocks</a>]]></comment>
+          <sort_order>100</sort_order>
+          <show_in_default>1</show_in_default>
+          <show_in_website>1</show_in_website>
+          <show_in_store>1</show_in_store>
+          <expanded>1</expanded>
+          <fields>
+            <toolbar_color translate="label comment">
+              <label>Toolbar Color</label>
+              <comment><![CDATA[If present, this will be used to set the <code>theme-color</code> meta tag]]></comment>
+              <frontend_type>text</frontend_type>
+              <sort_order>100</sort_order>
+              <show_in_default>1</show_in_default>
+              <show_in_website>1</show_in_website>
+              <show_in_store>1</show_in_store>
+            </toolbar_color>
+          </fields>
+        </theme>
+      </groups>
+    </xit0_chromethemecolor>
+  </sections>
+</config>

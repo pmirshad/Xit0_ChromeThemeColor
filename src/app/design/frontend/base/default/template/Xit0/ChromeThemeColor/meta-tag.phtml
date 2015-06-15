@@ -1,0 +1,9 @@
+<?php
+  $_xit0ChromeThemeColor_toolbarColor = Mage::getStoreConfig('xit0_chromethemecolor/theme/toolbar_color');
+
+  if(strlen(trim($_xit0ChromeThemeColor_toolbarColor)) > 0) {
+?>
+  <meta name="theme-color" content="<?php echo $_xit0ChromeThemeColor_toolbarColor; ?>">
+<?php } else { ?>
+  <!-- theme-color is empty -->
+<?php } ?>

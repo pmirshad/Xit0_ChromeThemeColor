@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author     Irshad Pananilath
+ * @package    Xit0_ChromeThemeColor
+ * @copyright  Copyright (c) 2014-15 Irshad Pananilath
+ * @license    The MIT License (MIT)
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+-->
+<config>
+  <acl>
+    <resources>
+      <admin>
+        <children>
+          <system>
+            <children>
+              <config>
+                <children>
+                  <xit0_chromethemecolor translate="title">
+                    <title>Xit0 Chrome Theme Color Config</title>
+                    <sort_order>100</sort_order>
+                  </xit0_chromethemecolor>
+                </children>
+              </config>
+            </children>
+          </system>
+        </children>
+      </admin>
+    </resources>
+  </acl>
+</config>

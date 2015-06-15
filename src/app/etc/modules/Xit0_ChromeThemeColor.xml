@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Xit0_ChromeThemeColor>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends></depends>
+        </Xit0_ChromeThemeColor>
+    </modules>
+</config>

@@ -1,0 +1,12 @@
+<layout version="1.0.0">
+  <default>
+    <reference name="head">
+      <block type="core/text_list" name="xit0_before_head_end" as="xit0_before_head_end"/>
+    </reference>
+    <reference name="xit0_before_head_end">
+      <block type="core/template" name="xit0-chromethemecolor.block" after="-" template="Xit0/ChromeThemeColor/meta-tag.phtml">
+        <action method="setCacheLifetime"><s>9999999999</s></action>
+      </block>
+    </reference>
+  </default>
+</layout>
