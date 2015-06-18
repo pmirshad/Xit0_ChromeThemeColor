@@ -4,3 +4,7 @@ src/app/code/community/Xit0/ChromeThemeColor                            app/code
 
 src/app/design/frontend/base/default/layout/xit0_chromethemecolor.xml   app/design/frontend/base/default/layout/xit0_chromethemecolor.xml
 src/app/design/frontend/base/default/template/Xit0/ChromeThemeColor     app/design/frontend/base/default/template/Xit0/ChromeThemeColor
+
+src/js/xit0/chromethemecolor                                            js/xit0/chromethemecolor
+
+src/skin/adminhtml/base/default/xit0/chromethemecolor                   skin/adminhtml/base/default/xit0/chromethemecolor

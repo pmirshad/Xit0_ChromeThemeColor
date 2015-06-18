@@ -40,7 +40,9 @@
               <label>Toolbar Color</label>
               <comment><![CDATA[If present, this will be used to set the <code>theme-color</code> meta tag]]></comment>
               <frontend_type>text</frontend_type>
+              <frontend_model>chromethemecolor/adminhtml_system_config_form_field_spectrum</frontend_model>
               <sort_order>100</sort_order>
+              <validate>validate-xit0-color</validate>
               <show_in_default>1</show_in_default>
               <show_in_website>1</show_in_website>
               <show_in_store>1</show_in_store>

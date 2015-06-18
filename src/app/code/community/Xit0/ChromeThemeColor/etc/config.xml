@@ -17,6 +17,11 @@
     </Xit0_ChromeThemeColor>
   </modules>
   <global>
+    <blocks>
+     <chromethemecolor>
+       <class>Xit0_ChromeThemeColor_Block</class>
+     </chromethemecolor>
+    </blocks>
     <helpers>
       <chromethemecolor>
         <class>Xit0_ChromeThemeColor_Helper</class>
